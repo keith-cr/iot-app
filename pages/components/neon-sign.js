@@ -118,7 +118,7 @@ export default function NeonSign() {
   return (
     <div>
       <Head>
-        <title>{title}</title>
+        <title>{title || 'Loading...'}</title>
         <link rel="icon" href="/favicon.ico" />
         <style>{globalStyle}</style>
       </Head>
