@@ -24,6 +24,7 @@ const globalStyle = `
     background: #000;
     min-height: 100vh;
     overflow: hidden;
+    cursor: none;
   }
 
   h1 {
